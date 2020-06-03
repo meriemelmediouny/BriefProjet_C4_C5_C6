@@ -47,7 +47,7 @@ SELECT Title FROM Movies
 
 ## question 9
 ```sql
- UPDATE Movies SET Rating='G' WHERE Rating IS NULL;
+ UPDATE Movies SET Rating='G' WHERE Rating IS NULL
  ``` 
 ## quetion 10
 ```sql
