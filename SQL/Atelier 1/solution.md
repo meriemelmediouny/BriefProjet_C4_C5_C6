@@ -68,7 +68,7 @@ SELECT Name FROM products;
 ```
 ## (Q6) Sélectionner les noms et les prix de tous les produits du magasin.
 ```sql
-SELECT Name, Price FROM products;
+SELECT Name, Price FROM products
 ```
 ## (Q7) Sélectionner le nom des produits dont le prix est inférieur ou égal à 200 $.
 ```sql
