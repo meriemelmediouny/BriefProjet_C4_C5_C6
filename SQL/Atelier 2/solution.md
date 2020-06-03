@@ -101,7 +101,7 @@ WHERE budget>(SELECT AVG(budget) FROM departments)
 ```sql
 SELECT d.Name 
 FROM departments d INNER JOIN employees e ON e.Department=d.code
-GROUP BY d.Name HAVING COUNT(*) >2;
+GROUP BY d.Name HAVING COUNT(*) >2
 ```
 # 2.15 Très important - Sélectionnez le nom et le nom de famille des employés travaillant pour les ministères dont le budget est le deuxième plus bas.
 ```sql
