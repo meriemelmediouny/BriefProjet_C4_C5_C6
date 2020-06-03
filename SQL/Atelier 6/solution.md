@@ -4,5 +4,5 @@ SELECT s.Name, p.Name as Name_Project, p.Hours FROM scientists s INNER JOIN assi
 ```
 ## Question 2
 ```sql
-SELECT name FROM projects WHERE CODE not IN (SELECT project FROM assignedto)
+SELECT name FROM projects WHERE CODE not IN (SELECT project FROM assignedto);
 ```
