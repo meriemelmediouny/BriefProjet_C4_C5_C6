@@ -50,7 +50,7 @@ __
 __
 ## question 7
 ```sql
- INSERT INTO Provides  VALUES (1, 'TNBC', 7);
+ INSERT INTO Provides  VALUES (1, 'TNBC', 7)
 ``` 
 
 __
